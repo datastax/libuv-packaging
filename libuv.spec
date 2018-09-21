@@ -72,6 +72,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc README.md AUTHORS LICENSE
 %{_includedir}/*.h
+%{_includedir}/uv/*.h
 %{_libdir}/*.a
 %{_libdir}/*.la
 %{_libdir}/pkgconfig/*.pc
